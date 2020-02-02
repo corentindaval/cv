@@ -73,6 +73,7 @@ p
 {
 	display:flex;
 	flex-direction:column;
+
 }
 
 #prenom
@@ -115,29 +116,55 @@ flex-direction:column;
 	
 }
 
-#tableau_recomandation
+#table_contact
 {
-	
+	display:flex;
+	flex-direction:row;
 }
 
 .date_et_lieu
 {
 	display:flex;
 	flex-direction:column;
+		margin-top:10px;
+	margin-bottom:10px;
+	margin-right:100px;
+	margin-left:20px;
 }
 
 .decription
 {
 	display:flex;
 	flex-direction:column;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:100px;
+	margin-left:20px;
 }
 
 .contact
 {
 	display:flex;
 	flex-direction:column;
+		margin-top:10px;
+	margin-bottom:10px;
+	margin-left:20px;
+	margin-right:100px;
 }
-
+.ligne
+{
+	display:flex;
+	flex-direction:row;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:50px;
+	margin-right:50px;
+}
+.tableau
+{
+display:flex;
+flex-direction:column;	
+}
 
 @media all and (max-width: 1024px)
 {
