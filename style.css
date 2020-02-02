@@ -1,0 +1,172 @@
+body
+{
+	display:flex;
+	flex-direction:row;
+}
+
+h1
+{
+	margin-top:10px;
+	margin-bottom:5px;
+	margin-left:10px;
+	margin-right:10px;
+	display:flex;
+	flex-direction:row;
+}
+
+h2
+{
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:50px;
+	margin-right:10px;
+	text-decoration:underline;
+	text-align:center-left;
+}
+
+h3
+{
+	background-color:grey;
+	color:orange;
+	text-align:center;
+}
+
+h4
+{
+	margin-top:5px;
+	margin-bottom:50px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+p
+{
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+#partie_gauche
+{
+	width:20%;
+	background-color:orange;
+	display:flex;
+	flex-direction:column;
+	border-width:1px;
+	border-color:grey;
+	border-style:solid;
+}
+
+#partie_droite
+{
+	width:80%;
+	background-color:white;
+	display:flex;
+	flex-direction:column;
+	border-width:1px;
+	border-color:grey;
+	border-style:solid;
+}
+
+#contact
+{
+	display:flex;
+	flex-direction:column;
+}
+
+#prenom
+{
+	color:orange;
+	margin-right:2px;
+}
+
+#presentation
+{
+	display:flex;
+	flex-direction:column;
+}
+
+#partie_formation
+{
+	display:flex;
+	flex-direction:column;
+}
+
+#partie_experiences_profesionnelle
+{
+	display:flex;
+	flex-direction:column;
+}
+
+#partie_recommandations
+{
+display:flex;
+flex-direction:column;
+}
+
+#tableau_formation
+{
+	
+}
+
+#tableau_experience
+{
+	
+}
+
+#tableau_recomandation
+{
+	
+}
+
+.date_et_lieu
+{
+	display:flex;
+	flex-direction:column;
+}
+
+.decription
+{
+	display:flex;
+	flex-direction:column;
+}
+
+.contact
+{
+	display:flex;
+	flex-direction:column;
+}
+
+
+@media all and (max-width: 1024px)
+{
+	body
+	{
+		display:flex;
+		flex-direction:column;
+	}
+	
+	#partie_gauche
+	{
+		width:100%;
+	background-color:orange;
+	display:flex;
+	flex-direction:column;
+	border-width:1px;
+	border-color:grey;
+	border-style:solid;
+	}
+	
+	#partie_droite
+	{
+		width:100%;
+	background-color:white;
+	display:flex;
+	flex-direction:column;
+	border-width:1px;
+	border-color:grey;
+	border-style:solid;
+	}
+	
+}
