@@ -69,57 +69,22 @@ p
 	border-style:solid;
 }
 
-#contact
-{
-	display:flex;
-	flex-direction:column;
-
-}
-
 #prenom
 {
 	color:orange;
 	margin-right:2px;
 }
 
-#presentation
-{
-	display:flex;
-	flex-direction:column;
-}
-
-#partie_formation
-{
-	display:flex;
-	flex-direction:column;
-}
-
-#partie_experiences_profesionnelle
-{
-	display:flex;
-	flex-direction:column;
-}
-
-#partie_recommandations
-{
-display:flex;
-flex-direction:column;
-}
-
-#tableau_formation
-{
-	
-}
-
-#tableau_experience
-{
-	
-}
-
-#table_contact
+.config_row
 {
 	display:flex;
 	flex-direction:row;
+}
+
+.config_column
+{
+	display:flex;
+    flex-direction:column;
 }
 
 .date_et_lieu
@@ -160,11 +125,7 @@ flex-direction:column;
 	margin-left:50px;
 	margin-right:50px;
 }
-.tableau
-{
-display:flex;
-flex-direction:column;	
-}
+
 
 @media all and (max-width: 1024px)
 {
