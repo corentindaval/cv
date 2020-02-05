@@ -1,13 +1,16 @@
 
 #corps_cv
 {
-height:80%;
+height:85%;
+
+    font-family:Verdana,sans-serif;
 	display:flex;
 	flex-direction:row;
 }
 
 h1
 {
+	padding-left: 5%;
 	margin-top:10px;
 	margin-bottom:5px;
 	margin-left:10px;
@@ -33,6 +36,12 @@ h3
 	text-align:center;
 }
 
+h4
+{	
+	font-size: 150%;
+	padding-left: 5%;
+	
+}
 
 header
 {
@@ -120,11 +129,29 @@ border-bottom-color:white;
 	flex-direction:row;
 }
 
+.espace
+{ 
+	white-space:pre;
+}
 .config_column
 {
 	display:flex;
     flex-direction:column;
 }
+
+.arrondi 
+{
+  display: inline-block;
+  border: 20px dotted orange;
+  width: 90%;
+  height: 80%;
+  border-radius: 50%;
+}
+img {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}}
 
 .date_et_lieu
 {
