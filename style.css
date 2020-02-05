@@ -60,6 +60,16 @@ p
 	
 }
 
+i
+{
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-left:30px;
+	margin-right:30px;
+	height:40px;
+	width:40px;
+}
+
 #partie_gauche
 {
 	width:20%;
@@ -145,7 +155,7 @@ border-bottom-color:white;
   border: 20px dotted orange;
   width: 90%;
   height: 80%;
-  border-radius: 50%;
+  border-radius: 55%;
 }
 img {
   width: inherit;
