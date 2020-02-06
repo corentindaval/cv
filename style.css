@@ -70,6 +70,14 @@ i
 	width:40px;
 }
 
+img
+{
+height:200px;
+width:200px;
+border-radius:55%;
+margin:20px auto;
+
+}
 #partie_gauche
 {
 	width:20%;
@@ -139,29 +147,14 @@ border-bottom-color:white;
 	flex-direction:row;
 }
 
-.espace
-{ 
-	white-space:pre;
-}
+
 .config_column
 {
 	display:flex;
     flex-direction:column;
 }
 
-.arrondi 
-{
-  display: inline-block;
-  border: 20px dotted orange;
-  width: 90%;
-  height: 80%;
-  border-radius: 55%;
-}
-img {
-  width: inherit;
-  height: inherit;
-  border-radius: inherit;
-}}
+
 
 .date_et_lieu
 {
@@ -208,14 +201,14 @@ img {
 {
  header
  {
+	 display:flex;
+	 flex-direction:column;
 	width:100%;
  }
 #header_droit
 {
-		width:80%;
+	width:100%;
 	background-color:orange;
-	display:flex;
-	flex-direction:column;
 	border-width:1px;
 	border-color:grey;
 	border-left-color:orange;
@@ -226,10 +219,7 @@ border-bottom-color:orange;
 
 #header_gauche
 {
-	width:20%;
-	background-color:orange;
-	display:flex;
-	flex-direction:column;
+	width:100%;
 	border-width:1px;
 	border-color:grey;
 	border-bottom-color:orange;
