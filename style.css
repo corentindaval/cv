@@ -75,26 +75,58 @@ border-radius:55%;
 margin:20px auto;
 
 }
-li::before 
+
+
+
+.list
 {
-	content: "•";
+	list-style: none;
+	
+}
+
+.list::before
+{
+		content: "•";
 	 color: #FFC107;
+	 font-size:150%;
+	 width:10%;
 }
 
-ul
+.puce
 {
-	list-style: none;margin-left: 2%
+	list-style: none;
+	margin-left: 2%;
 }
-
-
 
 .puce::before
 {
 	content:"\0298";
 	color:#FFC107;
+	font-size:150%;
+	width:10%;
 }
 
+.mep1
+{
+	display:flex;
+    flex-direction:column;
+	padding-left:10%;
+}
 
+#loisirs
+{
+	height:20%;
+}
+
+#a_propos
+{
+	height:40%;
+}
+
+#contact
+{
+	height:40%;
+}
 
 #partie_gauche
 {
@@ -143,7 +175,7 @@ ul
 	flex-direction:column;
 	border-width:1px;
 	border-color:grey;
-	border-bottom-color:orange;
+	border-bottom-color:#FFC107;
 	border-style:solid;
 }
 
@@ -184,9 +216,9 @@ border-bottom-color:white;
 	padding-bottom: 10px;
 	display:flex;
 	flex-direction:column;
+	padding-right:5%;
 	margin-bottom:10px;
-	margin-right: 40px;
-	margin-left:10px;
+	width:20%;
 }
 
 .decription
@@ -195,9 +227,16 @@ border-bottom-color:white;
 	display:flex;
 	flex-direction:column;
 	margin-bottom:10px;
-	margin-right:100px;
-	margin-left:20px;
+width:60%;
+}
 
+#description_cira
+{
+	padding-bottom: 10px;
+	display:flex;
+	flex-direction:column;
+	margin-bottom:10px;
+width:70%;
 }
 
 .contact
@@ -251,6 +290,7 @@ margin:auto;
  i
  {
 	margin:auto; 
+	margin-bottom:10px;
  }
  
  .description
