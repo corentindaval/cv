@@ -99,7 +99,7 @@ margin:20px auto;
 	margin-left: 2%;
 }
 
-.puce::before
+.date_et_lieu::before
 {
 	content:"\f140";
 	font-family:FontAwesome;
@@ -216,7 +216,7 @@ border-bottom-color:white;
 .date_et_lieu
 {
 	padding-bottom: 10px;
-	display:flex;
+	/*display:flex;*/
 	flex-direction:column;
 	padding-right:5%;
 	margin-bottom:10px;
