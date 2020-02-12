@@ -385,4 +385,18 @@ border-bottom-color:#FFC107;
 	{
 		width:80%;
 	}
+	#loisirs
+    {
+	height:10%;
+    }
+
+    #a_propos
+    {
+	height:30%;
+    }
+
+    #contact
+    {
+	height:60%;
+    }
 }
