@@ -81,7 +81,7 @@ margin:20px auto;
 .list
 {
 	list-style: none;
-	
+	margin:2%;
 }
 
 .list::before
