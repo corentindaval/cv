@@ -101,7 +101,7 @@ margin:20px auto;
 
 .date_et_lieu::before
 {
-	content:"\f140";
+	content:"\f192";
 	font-family:FontAwesome;
 	color:#FFC107;
 	font-size:150%;
