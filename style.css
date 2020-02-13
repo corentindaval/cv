@@ -76,14 +76,6 @@ margin:20px auto;
 
 }
 
-
-
-.list
-{
-	list-style: none;
-	margin:2%;
-}
-
 .date_et_lieu::before
 {
 		content: "\f111";
@@ -91,24 +83,14 @@ margin:20px auto;
 	 color: #FFC107;
 	 font-size:100%;
 	 width:10%;
+	 	margin-right:10px;
 }
 
 
-.date_et_lieu::before
+.date_et_lieu
 {
-	content:"\f192";
-	font-family:FontAwesome;
-	color:#FFC107;
-	font-size:150%;
-	width:10%;
-	margin-right:10px;
-}
-
-.date_et_lieu2
-{
-		padding-bottom: 10px;
+	padding-bottom: 10px;
 	display:flex;
-	/*flex-direction:column;*/
 	padding-right:5%;
 	margin-right:10px;
 	margin-bottom:10px;
@@ -119,14 +101,28 @@ margin:20px auto;
 
 .date_et_lieu2::before
 {
-	content:"\f111";
+	content:"\f192";
 	font-family:FontAwesome;
 	color:#FFC107;
-	font-size:150%;
+	font-size:100%;
 	width:10%;
 	margin-right:10px;
 }
-.mep1
+
+.date_et_lieu2
+{
+		padding-bottom: 10px;
+	display:flex;
+	padding-right:5%;
+	margin-right:10px;
+	margin-bottom:10px;
+	width:20%;
+	list-style: none;
+	margin-left: 2%;
+	margin-right:10px;
+}
+
+.mep
 {
 	display:flex;
     flex-direction:column;
@@ -231,19 +227,6 @@ border-bottom-color:white;
 	margin-right: 5%;
 }
 
-.date_et_lieu
-{
-	padding-bottom: 10px;
-	display:flex;
-	/*flex-direction:column;*/
-	padding-right:5%;
-	margin-right:10px;
-	margin-bottom:10px;
-	width:20%;
-	list-style: none;
-	margin-left: 2%;
-}
-
 .decription
 {
 	padding-bottom: 10px;
@@ -333,6 +316,13 @@ margin:auto;
  .date_et_lieu
  {
 	 margin:auto;
+	 margin-right:15%;
+ }
+ 
+  .date_et_lieu2
+ {
+	 margin:auto;
+	 margin-right:15%;
  }
  
  #T1
