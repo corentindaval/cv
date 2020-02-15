@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "FontAwesome";
+  font-family: "FontAwesomePerso";
   font-weight: normal;
   font-style : normal;
          src : url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0");
@@ -90,7 +90,7 @@ margin:20px auto;
 .date_et_lieu::before
 {
 		content: "\f111";
-		font-family:FontAwesome;
+		font-family:FontAwesomePerso;
 	 color: #FFC107;
 	 font-size:100%;
 	 width:10%;
@@ -113,7 +113,7 @@ margin:20px auto;
 .date_et_lieu2::before
 {
 	content:"\f192";
-	font-family:FontAwesome;
+	font-family:FontAwesomePerso;
 	color:#FFC107;
 	font-size:100%;
 	width:10%;
@@ -259,7 +259,7 @@ width:60%;
 	display:flex;
 	flex-direction:column;
 	margin-bottom:10px;
-width:83%;
+width:89%;
 }
 
 #description_animation
@@ -268,7 +268,7 @@ width:83%;
 	display:flex;
 	flex-direction:column;
 	margin-bottom:10px;
-width:70%;
+width:80%;
 }
 
 .contact
@@ -277,8 +277,9 @@ width:70%;
 	flex-direction:column;
 		margin-top:10px;
 	margin-bottom:10px;
-	margin-left:20px;
+	margin-left:40px;
 	margin-right:100px;
+	width:25%;
 }
 .ligne
 {
@@ -325,6 +326,13 @@ margin:auto;
 	margin-bottom:10px;
  }
  
+ .contact
+ {
+	margin-left:20px;
+	margin-right:10px;
+	width:100%;
+ }
+
  .description
  {
 	 margin:auto;
