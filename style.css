@@ -9,6 +9,10 @@
                url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"),
                url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
 }
+body
+{
+margin:0;	
+}
 
 #corps_cv
 {
@@ -21,13 +25,16 @@ height:85%;
 
 h1
 {
-	padding-left: 5%;
+/*	padding-left: 5%;
 	margin-top:10px;
 	margin-bottom:5px;
 	margin-left:10px;
 	margin-right:10px;
+	*/
 	display:flex;
 	flex-direction:row;
+	margin-left:5px;
+	padding-left:5%;
 }
 
 h2
@@ -133,7 +140,6 @@ margin:20px auto;
 	width:20%;
 	list-style: none;
 	margin-left: 2%;
-	margin-right:10px;
 }
 
 .mep
@@ -141,8 +147,13 @@ margin:20px auto;
 	display:flex;
     flex-direction:column;
 	padding-left:10%;
+	width:100%;
 }
 
+.header_droit h2
+{
+	margin:0;
+}
 #loisirs
 {
 	height:20%;
@@ -164,12 +175,13 @@ margin:20px auto;
 	background-color:#FFC107;
 	display:flex;
 	flex-direction:column;
-	border-width:1px;
+/*border-width:1px;
 	border-color:grey;
 	border-top-color:#FFC107;
 	border-left-color:white;
 	border-bottom-color:white;
 	border-style:solid;
+	*/
 }
 
 #partie_droite
@@ -178,12 +190,13 @@ margin:20px auto;
 	background-color:white;
 	display:flex;
 	flex-direction:column;
-	border-width:1px;
+	/*border-width:1px;
 	border-color:grey;
 	border-top-color:white;
 	border-right-color:white;
 	border-bottom-color:white;
 	border-style:solid;
+	*/
 }
 
 #prenom
@@ -194,11 +207,12 @@ margin:20px auto;
 
 #T1
 {
-	margin-top:5px;
+	/*margin-top:5px;
 	margin-bottom:50px;
 	margin-left:5px;
 	margin-right:10px;
 	padding-left: 5%;
+	*/
 }
 
 #header_gauche
@@ -207,12 +221,13 @@ margin:20px auto;
 	background-color:#FFC107;
 	display:flex;
 	flex-direction:column;
-	border-width:1px;
+	/*border-width:1px;
 	border-color:grey;
 	border-bottom-color:#FFC107;
 	border-left-color:white;
 	border-top-color:white;
 	border-style:solid;
+	*/
 }
 
 #header_droit
@@ -221,12 +236,13 @@ margin:20px auto;
 	background-color:white;
 	display:flex;
 	flex-direction:column;
-	border-width:1px;
+	/*border-width:1px;
 	border-color:grey;
 border-bottom-color:white;
 border-top-color:white;
 border-right-color:white;
 	border-style:solid;
+	*/
 }
 
 
@@ -249,19 +265,20 @@ border-right-color:white;
 	margin-right: 5%;
 }
 
-.decription
+.description
 {
 	padding-bottom: 10px;
 	display:flex;
 	flex-direction:column;
 	margin-bottom:10px;
-width:60%;
+width:80%;
 }
 
 .mep2
 {
 	font-size:17px;
 	font-weight:bold;
+	width:100%;
 }
 
 #description_cira
