@@ -167,6 +167,8 @@ margin:20px auto;
 	border-width:1px;
 	border-color:grey;
 	border-top-color:#FFC107;
+	border-left-color:white;
+	border-bottom-color:white;
 	border-style:solid;
 }
 
@@ -179,6 +181,8 @@ margin:20px auto;
 	border-width:1px;
 	border-color:grey;
 	border-top-color:white;
+	border-right-color:white;
+	border-bottom-color:white;
 	border-style:solid;
 }
 
@@ -206,6 +210,8 @@ margin:20px auto;
 	border-width:1px;
 	border-color:grey;
 	border-bottom-color:#FFC107;
+	border-left-color:white;
+	border-top-color:white;
 	border-style:solid;
 }
 
@@ -218,6 +224,8 @@ margin:20px auto;
 	border-width:1px;
 	border-color:grey;
 border-bottom-color:white;
+border-top-color:white;
+border-right-color:white;
 	border-style:solid;
 }
 
