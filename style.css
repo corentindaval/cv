@@ -281,24 +281,6 @@ width:80%;
 	width:100%;
 }
 
-#description_cira
-{
-	padding-bottom: 10px;
-	display:flex;
-	flex-direction:column;
-	margin-bottom:10px;
-width:89%;
-}
-
-#description_animation
-{
-	padding-bottom: 10px;
-	display:flex;
-	flex-direction:column;
-	margin-bottom:10px;
-width:80%;
-}
-
 .contact
 {
 	display:flex;
@@ -348,6 +330,33 @@ margin:auto;
 	
  }
  
+ .ligne
+ {
+flex-direction:column;	 
+ }
+ 
+ .date_et_lieu,.date_et_lieu2
+{
+	padding-bottom: 10px;
+	display:flex;
+	padding-right:5%;
+	margin-right:10px;
+	margin-bottom:10px;
+	width:100%;
+	list-style: none;
+	/*margin-left: 2%;*/
+}
+
+.description
+{
+	padding-left:20%;
+}
+
+.mep
+{
+width:100%;	
+}
+
  i
  {
 	margin:auto; 
