@@ -205,16 +205,6 @@ margin:20px auto;
 	margin-right:5px;
 }
 
-#T1
-{
-	/*margin-top:5px;
-	margin-bottom:50px;
-	margin-left:5px;
-	margin-right:10px;
-	padding-left: 5%;
-	*/
-}
-
 #header_gauche
 {
 	width:20%;
@@ -419,7 +409,11 @@ border-bottom-color:#FFC107;
 	color:green;
 	margin-right:2px;
 }
-
+#T1
+{
+	width:100;
+	font-size:120%;
+}
 	#corps_cv
 	{
 		display:flex;
