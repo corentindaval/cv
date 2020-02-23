@@ -1,0 +1,463 @@
+
+@font-face { /*creation d'unepolice personnaliser pour le font awesone */
+  font-family: "FontAwesome";
+  font-weight: normal;
+  font-style : normal;
+         src : url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0");
+         src : url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"),
+               url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"),
+               url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"),
+               url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"),
+               url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+             
+}
+body
+{ /*enleve l'espace sur les bords du navigateur */
+margin:0;	
+}
+
+#corps_cv
+{ /*definition de la structure et de la police d'ecriture pour le corps du cv */
+height:85%;
+
+    font-family:calibri,sans-serif;
+	display:flex;
+	flex-direction:row;
+}
+
+h1
+{ /*definition de la disposition des composants dans le(s) titre(s) h1 */
+/*	padding-left: 5%;
+	margin-top:10px;
+	margin-bottom:5px;
+	margin-left:10px;
+	margin-right:10px;
+	*/
+	display:flex;
+	flex-direction:row;
+	margin-left:5px;
+	padding-left:5%;
+}
+
+h2
+{ /*definition de la disposition des composants dans le(s) titre(s) h2 */
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:50px;
+	margin-right:10px;
+	color:black;
+	text-align:left;
+}
+
+h3
+{ /*definition de la disposition des composants dans le(s) titre(s) h3 */
+	background-color:grey;
+	color:#FFC107;
+	text-align:center;
+}
+
+h4
+{	/* definition de la disposition des composants dans le(s) titre(s) h4 */
+	font-size: 150%;
+	padding-left: 5%;
+	
+}
+
+header
+{ /*definition du header */
+	height:20%;
+	display:flex;
+	flex-direction:row;
+}
+
+
+p
+{/* definition de la mise en page dans les paragraphe */
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:10%;
+	margin-right:10%;
+	line-height:100%;
+	word-wrap: break-word;
+}
+
+i
+{/* definition de la mise en page des balise i*/
+	margin:auto;
+	font-size:100%;
+
+}
+
+.icone_loisir
+{/*definition de la mise en page des icone dans la partie loisirs du cv */
+	margin:auto;
+	border:solid;
+	border-color: black;
+	border-radius: 50%;
+    padding:5%;
+}
+
+
+
+img
+{ /*definition de la balise img qui contient la photo du cv */
+height:60%;
+width:60%;
+border-radius:55%;
+margin:20px auto;
+
+}
+
+.date_et_lieu::before
+{ /*definition de la puce situer au debut des class date_et_lieu */
+				content: "\f111";
+		        font-family:FontAwesome;
+				color: #FFC107;
+				font-size:100%;
+	            width:10%;
+	 	        margin-right:10px;
+}
+
+
+.date_et_lieu
+{ /*definition de la class date_et_lieu */
+	padding-bottom: 10px;
+	display:flex;
+	padding-right:5%;
+	margin-right:10px;
+	margin-bottom:10px;
+	width:20%;
+	list-style: none;
+	margin-left: 2%;
+}
+
+.date_et_lieu2::before
+{ /*definition de la puce situer au debut des class date_et_lieu2 */
+	content:"\f192";
+	font-family:FontAwesome;
+	color:#FFC107;
+	font-size:100%;
+	width:10%;
+	margin-right:10px;
+}
+
+.date_et_lieu2
+{ /*definition de la class date_et_lieu2 */
+	padding-bottom: 10px;
+	display:flex;
+	padding-right:5%;
+	margin-right:10px;
+	margin-bottom:10px;
+	width:20%;
+	list-style: none;
+	margin-left: 2%;
+}
+
+.mep
+{ /*definition de la mise en page */
+	display:flex;
+    flex-direction:column;
+	padding-left:10%;
+	width:100%;
+}
+
+.header_droit h2
+{ /*definition de la marge du h2 du header_droit */
+	margin:0;
+}
+
+#loisirs
+{ /*definition de la taille de la partie loisir */
+	height:20%;
+}
+
+#a_propos
+{ /*definition de la taille de la partie a_propos */
+	height:40%;
+}
+
+#contact
+{ /*definition de la taille de la partie contact */
+	height:40%;
+}
+
+#partie_gauche
+{/*mise en page de la partie gauche du cv */
+	width:20%;
+	background-color:#FFC107;
+	display:flex;
+	flex-direction:column;
+/*border-width:1px;
+	border-color:grey;
+	border-top-color:#FFC107;
+	border-left-color:white;
+	border-bottom-color:white;
+	border-style:solid;
+	*/
+}
+
+#partie_droite
+{/*mise en page de la partie droite du cv */
+	width:80%;
+	background-color:white;
+	display:flex;
+	flex-direction:column;
+	/*border-width:1px;
+	border-color:grey;
+	border-top-color:white;
+	border-right-color:white;
+	border-bottom-color:white;
+	border-style:solid;
+	*/
+}
+
+#prenom
+{/*mise en couleur du prenom */
+	color:#FFC107;
+	margin-right:5px;
+}
+
+#header_gauche
+{ /*mise en page du header gauche */
+	width:20%;
+	background-color:#FFC107;
+	display:flex;
+	flex-direction:column;
+	/*border-width:1px;
+	border-color:grey;
+	border-bottom-color:#FFC107;
+	border-left-color:white;
+	border-top-color:white;
+	border-style:solid;
+	*/
+}
+
+#header_droit
+{ /*mise en page du header droit */
+	width:80%;
+	background-color:white;
+	display:flex;
+	flex-direction:column;
+	/*border-width:1px;
+	border-color:grey;
+border-bottom-color:white;
+border-top-color:white;
+border-right-color:white;
+	border-style:solid;
+	*/
+}
+
+
+.config_row
+{ /*configuration en ligne */
+	display:flex;
+	flex-direction:row;
+	
+}
+
+
+.config_column
+{ /*configuration en colone */
+	display:flex;
+    flex-direction:column;
+}
+
+.icone
+{ /*mise en page des icones */
+	color:#FFC107;
+	margin-right: 5%;
+}
+
+.description
+{/*mise en page des class description */
+	padding-bottom: 10px;
+	display:flex;
+	flex-direction:column;
+	margin-bottom:10px;
+    width:80%;
+}
+
+.mep2
+{/*mise en page 2 */
+	font-size:17px;
+	font-weight:bold;
+	width:100%;
+}
+
+.contact
+{ /*mise en page de la partie contact du cv */
+	display:flex;
+	flex-direction:column;
+		margin-top:10px;
+	margin-bottom:10px;
+	margin-left:40px;
+	margin-right:100px;
+	width:25%;
+}
+.ligne
+{/*description des class ligne */
+	display:flex;
+	flex-direction:row;
+	margin-left:40px;
+	margin-right:40px;
+}
+
+.souligner
+{/*mise en place du soulignement */
+	border-bottom: solid;
+	border-bottom-color: #FFC107;
+}
+
+
+
+@media all and (max-width: 600px)/*mise en place du responsive*/
+{
+ header
+ { /*description du header en responsive */
+	 display:flex;
+	 flex-direction:column;
+	width:100%;
+ }
+ 
+ img
+ {/*description de img en responsive */
+	 width:125px;
+	 height:125px;
+	 border-radius:55%;
+	 margin:auto;
+ }
+ 
+ h1
+ {/*definition de h1 en responsive */
+margin:auto;
+	
+ }
+ 
+ .ligne
+ {/*description de la class ligne en responsive */
+flex-direction:column;	 
+ }
+ 
+ .date_et_lieu,.date_et_lieu2
+{/*definition de date_et_lieu et date_et_lieu2 en responsive */
+	padding-bottom: 10px;
+	display:flex;
+	padding-right:5%;
+	margin-right:10px;
+	margin-bottom:10px;
+	width:100%;
+	list-style: none;
+	/*margin-left: 2%;*/
+}
+
+.description
+{/*definition de description en responsive */
+	padding-left:20%;
+	 margin:auto;
+}
+
+.mep
+{/*definition de mise en page en responsive */
+width:100%;	
+}
+
+ i
+ {/*definitionde i en responsive */
+	margin:auto; 
+	margin-bottom:10px;
+ }
+ 
+ .contact
+ {/*definition de contact en responsive */
+	margin-left:20px;
+	margin-right:10px;
+	width:100%;
+ }
+ 
+ .date_et_lieu,.date_et_lieu2
+ {/*definition de la mise en page de date_et_lieu et date_et_lieu2 en responsive*/
+	 margin:auto;
+	 margin-right:15%;
+ }
+ 
+ 
+ #T1
+ { /*definition de T1 en responsive*/
+	 margin:auto;
+	 width:100;
+	font-size:120%;
+ }
+ 
+#header_droit
+{/*definition du header droit en responsive*/
+	width:100%;
+	background-color:#FFC107;
+	border-width:1px;
+	border-color:grey;
+	border-top-color:#FFC107;
+border-bottom-color:#FFC107;
+	border-style:solid;
+}
+
+
+#header_gauche
+{/*definition du header gauche en responsive*/
+	width:100%;
+	border-width:1px;
+	border-color:grey;
+	border-bottom-color:#FFC107;
+	border-style:solid;
+}
+
+#prenom
+{/*definition du prenom en responsive*/
+	color:green;
+	margin-right:2px;
+}
+
+	#corps_cv
+	{/*definition du corps du cv en responsive*/
+		display:flex;
+		flex-direction:column;
+	}
+	
+	#partie_gauche
+	{/*definition de la partie gauche du cv en responsive*/
+		width:100%;
+	background-color:#FFC107;
+	display:flex;
+	flex-direction:column;
+	border-width:1px;
+	border-color:grey;
+	border-top-color:#FFC107;
+	border-bottom-color:#FFC107;
+	border-style:solid;
+	}
+	
+	#partie_droite
+	{/*definition de la partie droite du cv en responsive*/
+		width:100%;
+	background-color:white;
+	display:flex;
+	flex-direction:column;
+	border-width:1px;
+	border-color:grey;
+	border-top-color:white;
+	border-style:solid;
+	}
+	
+	#loisirs
+    {/*definition de la partie loisir en responsive*/
+	height:10%;
+    }
+
+    #a_propos
+    {/*definition de la partie a_propos en responsive*/
+	height:30%;
+    }
+
+    #contact
+    {/*definition de la partie contact en responsive*/
+	height:60%;
+    }
+}
