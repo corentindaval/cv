@@ -450,7 +450,7 @@ border-bottom-color:#FFC107;
 	
 	#loisirs
     {/*definition de la partie loisir en responsive*/
-	height:25%;
+	height:20%;
     }
 
     #a_propos
@@ -460,6 +460,6 @@ border-bottom-color:#FFC107;
 
     #contact
     {/*definition de la partie contact en responsive*/
-	height:505%;
+	height:55%;
     }
 }
