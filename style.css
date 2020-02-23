@@ -113,7 +113,7 @@ margin:20px auto;
 				content: "\f111";
 		        font-family:FontAwesome;
 				color: #FFC107;
-				font-style: solid;
+				font-weight:400; 
 			    font-size:100%;
 	            width:10%;
 	 	        margin-right:10px;
