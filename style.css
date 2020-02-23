@@ -135,7 +135,9 @@ margin:20px auto;
 
 .date_et_lieu2::before
 { /*definition de la puce situer au debut des class date_et_lieu2 */
+	font-family:FontAwesome;
 	content:"\f192";
+	color:#FFC107;
 	font-size:100%;
 	width:10%;
 	margin-right:10px;
