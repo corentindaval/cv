@@ -113,6 +113,7 @@ margin:20px auto;
 				font-weight: 900;
 				content: "\f111";
 		        font-family:FontAwesome;
+		        font-weight: 900;
 				color: #FFC107;
 				font-size:100%;
 	            width:10%;
@@ -136,6 +137,7 @@ margin:20px auto;
 { /*definition de la puce situer au debut des class date_et_lieu2 */
 	content:"\f192";
 	font-family:FontAwesome;
+	font-weight: 900;
 	color:#FFC107;
 	font-size:100%;
 	width:10%;
@@ -449,7 +451,7 @@ border-bottom-color:#FFC107;
 	
 	#loisirs
     {/*definition de la partie loisir en responsive*/
-	height:20%;
+	height:25%;
     }
 
     #a_propos
@@ -459,6 +461,6 @@ border-bottom-color:#FFC107;
 
     #contact
     {/*definition de la partie contact en responsive*/
-	height:55%;
+	height:50%;
     }
 }
