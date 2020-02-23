@@ -310,7 +310,7 @@ border-right-color:white;
 
 
 
-@media all and (max-width: 600px)/*mise en place du responsive*/
+@media all and (max-width: 620px)/*mise en place du responsive*/
 {
  header
  { /*description du header en responsive */
