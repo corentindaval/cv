@@ -110,6 +110,7 @@ margin:20px auto;
 
 .date_et_lieu::before
 { /*definition de la puce situer au debut des class date_et_lieu */
+				font-weight: 900;
 				content: "\f111";
 		        font-family:FontAwesome;
 				color: #FFC107;
@@ -310,7 +311,7 @@ border-right-color:white;
 
 
 
-@media all and (max-width: 620px)/*mise en place du responsive*/
+@media all and (max-width: 600px)/*mise en place du responsive*/
 {
  header
  { /*description du header en responsive */
@@ -448,7 +449,7 @@ border-bottom-color:#FFC107;
 	
 	#loisirs
     {/*definition de la partie loisir en responsive*/
-	height:15%;
+	height:20%;
     }
 
     #a_propos
@@ -458,6 +459,6 @@ border-bottom-color:#FFC107;
 
     #contact
     {/*definition de la partie contact en responsive*/
-	height:60%;
+	height:55%;
     }
 }
