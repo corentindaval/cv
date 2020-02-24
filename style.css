@@ -92,6 +92,7 @@ margin:20px auto;
 {
 	font-family:'Font Awesome 5 Pro';
 		content: "\f111";
+		font-weight: 900;
 	 color: #FFC107;
 	 font-size:100%;
 	 width:10%;
