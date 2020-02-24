@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
   font-family: "FontAwesome";
   font-weight: normal;
   font-style : normal;
@@ -9,6 +9,8 @@
                url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"),
                url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
 }
+*/
+
 body
 {
 margin:0;	
@@ -99,8 +101,8 @@ margin:20px auto;
 
 .date_et_lieu::before
 {
+	font-family:'Font Awesome 5 Pro';
 		content: "\f111";
-		font-family:FontAwesome;
 	 color: #FFC107;
 	 font-size:100%;
 	 width:10%;
@@ -122,8 +124,8 @@ margin:20px auto;
 
 .date_et_lieu2::before
 {
+	font-family:'Font Awesome 5 Pro';
 	content:"\f192";
-	font-family:FontAwesome;
 	color:#FFC107;
 	font-size:100%;
 	width:10%;
