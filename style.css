@@ -1,11 +1,11 @@
 
 
-body
+body /*supresion de la marge du corps */
 {
 margin:0;	
 }
 
-#corps_cv
+#corps_cv /*definition de la police d'ecriture utiliser */
 {
 height:85%;
 
@@ -14,7 +14,7 @@ height:85%;
 	flex-direction:row;
 }
 
-h1
+h1 /*definition de la mise en page des titre au format h1 */
 {
 /*	padding-left: 5%;
 	margin-top:10px;
@@ -28,7 +28,7 @@ h1
 	padding-left:5%;
 }
 
-h2
+h2 /*definition de la mise en page des titre au format h2 */
 {
 	margin-top:10px;
 	margin-bottom:10px;
@@ -38,21 +38,21 @@ h2
 	text-align:left;
 }
 
-h3
+h3 /*definition de la mise en page des titre au format h3 */
 {
 	background-color:grey;
 	color:#FFC107;
 	text-align:center;
 }
 
-h4
+h4 /*definition de la mise en page des titre au format h4 */
 {	
 	font-size: 150%;
 	padding-left: 5%;
 	
 }
 
-header
+header /*definition de la mise en page du header */
 {
 	height:20%;
 	display:flex;
@@ -60,7 +60,7 @@ header
 }
 
 
-p
+p /*definition de la mise en page des paragraphes */
 {
 	margin-top:5px;
 	margin-bottom:5px;
@@ -70,7 +70,7 @@ p
 	word-wrap: break-word;
 }
 
-i
+i /*mise en page des icones */
 {
 	margin:auto;
 	font-size:100%;
@@ -79,7 +79,7 @@ i
 
 
 
-img
+img /*mise en page de la photo */
 {
 height:60%;
 width:60%;
@@ -88,7 +88,7 @@ margin:20px auto;
 
 }
 
-.date_et_lieu::before
+.date_et_lieu::before /*definition de la puce type1 */
 {
 	font-family:'Font Awesome 5 Pro';
 		content: "\f111";
@@ -100,7 +100,7 @@ margin:20px auto;
 }
 
 
-.date_et_lieu
+.date_et_lieu /*definition de la partie date et lieu type1 */
 {
 	padding-bottom: 10px;
 	display:flex;
@@ -112,7 +112,7 @@ margin:20px auto;
 	margin-left: 2%;
 }
 
-.date_et_lieu2::before
+.date_et_lieu2::before /*definition de la puce type2 */
 {
 	font-family:'Font Awesome 5 Pro';
 	content:"\f192";
@@ -122,7 +122,7 @@ margin:20px auto;
 	margin-right:10px;
 }
 
-.date_et_lieu2
+.date_et_lieu2 /*definition de la partie date et lieu type2 */
 {
 		padding-bottom: 10px;
 	display:flex;
@@ -134,7 +134,7 @@ margin:20px auto;
 	margin-left: 2%;
 }
 
-.mep
+.mep /*definition de la mise en page type1 */
 {
 	display:flex;
     flex-direction:column;
@@ -142,27 +142,27 @@ margin:20px auto;
 	width:100%;
 }
 
-.header_droit h2
+.header_droit h2 /*supresion des marge pour le h2 du header droit */
 {
 	margin:0;
 }
 
-#loisirs
+#loisirs /*definition de la taille de la partie loisirs */
 {
 	height:10%;
 }
 
-#a_propos
+#a_propos /*definition de la taille de la partie a propos */
 {
 	height:45%;
 }
 
-#contact
+#contact /*definition de la taille de la partie contact */
 {
 	height:45%;
 }
 
-#partie_gauche
+#partie_gauche /*definition de la mise en page de la partie gauche du cv */
 {
 	width:20%;
 	background-color:#FFC107;
@@ -177,7 +177,7 @@ margin:20px auto;
 	*/
 }
 
-#partie_droite
+#partie_droite /*definition de la mise en page de la partie droite du cv */
 {
 	width:80%;
 	background-color:white;
@@ -192,13 +192,13 @@ margin:20px auto;
 	*/
 }
 
-#prenom
+#prenom /*mise en page du prenom*/
 {
 	color:#FFC107;
 	margin-right:5px;
 }
 
-#header_gauche
+#header_gauche /*definition de la mise en page de la partie gauche du header */
 {
 	width:20%;
 	background-color:#FFC107;
@@ -213,7 +213,7 @@ margin:20px auto;
 	*/
 }
 
-#header_droit
+#header_droit /*definition de la mise en page de la partie droite du header */
 {
 	width:80%;
 	background-color:white;
@@ -229,26 +229,26 @@ border-right-color:white;
 }
 
 
-.config_row
+.config_row /*configuration en ligne*/ 
 {
 	display:flex;
 	flex-direction:row;
 }
 
 
-.config_column
+.config_column /*configuration en colone*/
 {
 	display:flex;
     flex-direction:column;
 }
 
-.icone
+.icone /*mise en page des icones*/
 {
 	color:#FFC107;
 	margin-right: 5%;
 }
 
-.description
+.description /*mise en page partie description*/
 {
 	padding-bottom: 10px;
 	display:flex;
@@ -257,14 +257,14 @@ border-right-color:white;
 width:80%;
 }
 
-.mep2
+.mep2 /*mise en page type2*/
 {
 	font-size:17px;
 	font-weight:bold;
 	width:100%;
 }
 
-.contact
+.contact /*mise en page partie contact*/
 {
 	display:flex;
 	flex-direction:column;
@@ -274,7 +274,7 @@ width:80%;
 	margin-right:100px;
 	width:25%;
 }
-.ligne
+.ligne /*mise en page partie ligne*/
 {
 	display:flex;
 	flex-direction:row;
@@ -282,7 +282,7 @@ width:80%;
 	margin-right:40px;
 }
 
-.souligner
+.souligner /*mise en place du soulignement*/
 {
 	border-bottom: solid;
 	border-bottom-color: #FFC107;
@@ -290,7 +290,7 @@ width:80%;
 
 
 
-@media all and (max-width: 600px)
+@media all and (max-width: 600px) /*mise en place du responsive*/
 {
  header
  {
@@ -404,7 +404,6 @@ border-bottom-color:#FFC107;
 }
 #T1
 {
-	width:100;
 	font-size:120%;
 }
 	#corps_cv
@@ -419,11 +418,11 @@ border-bottom-color:#FFC107;
 	background-color:#FFC107;
 	display:flex;
 	flex-direction:column;
-	border-width:1px;
+/*border-width:1px;
 	border-color:grey;
 	border-top-color:#FFC107;
 	border-bottom-color:#FFC107;
-	border-style:solid;
+	border-style:solid;*/
 	}
 	
 	#partie_droite
@@ -432,10 +431,10 @@ border-bottom-color:#FFC107;
 	background-color:white;
 	display:flex;
 	flex-direction:column;
-	border-width:1px;
+	/*border-width:1px;
 	border-color:grey;
 	border-top-color:white;
-	border-style:solid;
+	border-style:solid;*/
 	}
 	#description_cira
 	{
