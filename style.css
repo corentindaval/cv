@@ -235,6 +235,12 @@ border-right-color:white;
 	flex-direction:row;
 }
 
+.config_row2 /*configuration en ligne*/ 
+{
+	display:flex;
+	flex-direction:row;
+}
+
 
 .config_column /*configuration en colone*/
 {
@@ -292,10 +298,12 @@ width:80%;
 
 @media all and (max-width: 768px) /*mise en place du responsive*/
 {
+
  header
  {
 	 display:flex;
 	 flex-direction:column;
+	 margin:auto;
 	width:100%;
  }
  
@@ -458,4 +466,11 @@ border-bottom-color:#FFC107;/* couleur material design la plus proche de la maqu
     {
 	height:60%;
     }
+	
+.config_row2/*configuration en ligne*/ 
+{
+	display:flex;
+	flex-direction:column;
+}
+
 }
